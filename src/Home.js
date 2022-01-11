@@ -40,7 +40,7 @@ function Home() {
             </ul>
           </div>
           {/* Toogle Menu */}
-          <div className="toggle__menu">
+          <div className="toggle__menu" onClick={() => setShow(!show)}>
             {/*
             <svg onClick={() => setShow(!show)}
               xmlns="http://www.w3.org/2000/svg"
